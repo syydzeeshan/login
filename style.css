@@ -1,0 +1,8 @@
+.new {
+  width: 436px;
+  height: 130.43px;
+  margin: auto;
+  background-image: url("./assets/bg.png");
+  background-color: #693769;
+  background-blend-mode: overlay;
+}
