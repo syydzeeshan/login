@@ -4,39 +4,45 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
 
     <!-- CSS only -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous" />
+    <link rel="stylesheet" href="style.css" />
     <title>Document</title>
   </head>
   <body>
-    <div class="container w-25 mt-5 d-flex flex-column justify-content-center shadow p-0">
-      <div class="new w-100" style="border-radius: 5px">
-        <div class="p-3">
-          <img src="./assets/logo.png" />
-          <div class="fs-4 text-white p-2">Welcome Back!</div>
-        </div>
-      </div>
+    <div class="container vh-100 d-flex flex-column justify-content-center align-items-center p-0">
+      <div class="container">
+        <div class="row container-margin">
+          <div class="col-lg-4 col-md-12 col-sm-12 shadow mx-auto p-0 rounded-bottom">
+            <div class="new rounded-top">
+              <div class="pt-4 px-4 pb-4">
+                <img src="./assets/logo.png" class="pb-2" />
+                <div class="fs-4 text-white ps-1">Welcome Back!</div>
+              </div>
+            </div>
 
-      <div class="container pt-4">
-        <form class="pb-4 m-3">
-          <div class="mb-3">
-            <label for="exampleInputEmail1" class="form-label">Email</label>
-            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Email" />
+            <div class="container pt-4">
+              <form class="pb-4 m-3">
+                <div class="mb-3">
+                  <label for="exampleInputEmail1" class="form-label">Email</label>
+                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Email" />
+                </div>
+                <div class="mb-3">
+                  <label for="exampleInputPassword1" class="form-label">Password</label>
+                  <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Enter Password" />
+                </div>
+                <div class="mb-3 form-check">
+                  <input type="checkbox" class="form-check-input" id="exampleCheck1" />
+                  <label class="form-check-label" for="exampleCheck1">Remember me</label>
+                </div>
+                <div class="d-grid">
+                  <button type="submit" class="btn">Login</button>
+                </div>
+              </form>
+            </div>
           </div>
-          <div class="mb-3">
-            <label for="exampleInputPassword1" class="form-label">Password</label>
-            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Enter Password" />
-          </div>
-          <div class="mb-3 form-check">
-            <input type="checkbox" class="form-check-input" id="exampleCheck1" />
-            <label class="form-check-label" for="exampleCheck1">Remember me</label>
-          </div>
-          <div class="d-grid gap-2">
-            <button type="submit" class="btn btn-primary">Login</button>
-          </div>
-        </form>
+        </div>
       </div>
     </div>
   </body>
